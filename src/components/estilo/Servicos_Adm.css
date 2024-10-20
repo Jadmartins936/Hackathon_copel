@@ -3,45 +3,36 @@
 
 .borda {
   background-color: #dc2f02;
-  width: 16vw;
   border-radius: 16px;
-  border: none;
   color: white;
+  border: none;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
+  width: 100%;
+  margin-right: 5px;
 }
-<<<<<<< Updated upstream
+
+.borda::placeholder {
+  color: rgb(213, 213, 213);
+}
+
+.Chat svg {
+  margin-right: 5px;
+}
+
 .Chat {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  border-radius: 10px 10px 0px 0px;
   background-color: #dca202;
-  width: 30vw;
-  height: 6vh;
-  padding: 2px;
-=======
-.Chat{ 
-    background-color: #dca202;
-    width: 30vw;
-    height: 6vh;
-    padding: 2px;
-    padding-top: 7px;
-    bottom: 0;
-    float: right;
-    border-radius: 10px 10px 0px 0px;
-   
->>>>>>> Stashed changes
+  bottom: 0;
+  right: 0;
+  padding: 5px;
+  width: 330px;
 }
 .Chat > button {
   border-radius: 10px;
 }
-<<<<<<< Updated upstream
-.Chat {
-  right: 0;
-  padding-top: 7px;
-  bottom: 0;
-  position: fixed;
-  border-radius: 10px 10px 0px 0px;
-}
-=======
-
-
->>>>>>> Stashed changes
