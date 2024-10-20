@@ -1,12 +1,13 @@
-import Mic from '../img/mic.svg'
+import {ReactComponent as MyLogo} from '../img/mic.svg'
+import '../estilo/Servicos_Adm.css'
 
 const MyComponent = () => {
     return (
         <div className="Chat">
-        <div className="msg">
-            <img src={Mic} alt="imagem de microfone mutado"/>
-            <p>Olá, em que posso ajudar?</p>
-        </div>
-       </div>
+            <MyLogo/>
+            
+            <button className='borda'>Olá, em que posso ajudar?</button></div>
+            
     )
-} export default MyComponent
+} ;
+export default MyComponent
