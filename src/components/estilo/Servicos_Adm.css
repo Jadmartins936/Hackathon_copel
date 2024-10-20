@@ -43,15 +43,31 @@ h1 {
 }
 
 #align {
-  display: inline-flex;
+  width: 100%;
 }
 .servicoscard {
   width: 160px;
   height: 160px;
   background-color: #dca202;
   margin: 10px;
-
+  box-shadow: 0px 5px 1px white;
+}
+.servicoscard:hover {
+  width: 160px;
+  height: 160px;
+  background-color: #dca202;
+  margin: 10px;
+  transform: scale(1.05);
+  box-shadow: -1px 5px 1px black;
 }
 
+.align {
+  position: absolute;
+  right: calc(50% - 540px / 2);
+}
 
-
+.cards {
+  margin: 0px;
+  display: flex;
+  text-align: center;
+}

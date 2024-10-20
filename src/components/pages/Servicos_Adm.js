@@ -14,19 +14,36 @@ const MyComponent = () => {
           Olá, em que posso ajudar?{" "}
         </button>
       </div>
-      <h1>Serviços</h1>
-      <section id="align">
-        <div className="servicoscard"> <p>Rede Pública</p></div>
-        <div className="servicoscard"><p>Troca de titularidade</p></div>
-        <div className="servicoscard"><p> Pagamento</p></div>
-        <div className="servicoscard"><p>Informar falta de luz</p></div>
-        <div className="servicoscard"><p>Segunda via</p></div>
-        <div className="servicoscard"><p>Parcelamento</p></div>
-
-        <div className="align2">
-        
+      <center>
+        <h1>Serviços</h1>
+      </center>
+      <div className="align">
+        <div className="cards">
+          <div className="servicoscard">
+            <p>Falta de luz</p>
+          </div>
+          <div className="servicoscard">
+            {" "}
+            <p>Ligação/Troca de Padrão</p>
+          </div>
+          <div className="servicoscard">
+            <p>Troca de titularidade</p>
+          </div>
         </div>
-      </section>
+        <div className="cards">
+          <div className="servicoscard">
+            <p>Fatura</p>
+          </div>
+          <div className="servicoscard">
+            <p>Ligamento / Religamento</p>
+          </div>
+          <div className="servicoscard">
+            <p>Ressarcimento de danos</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="align2"></div>
     </>
   );
 };
