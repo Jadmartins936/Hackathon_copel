@@ -1,17 +1,36 @@
-function Forms(params) {
-    return(
+import React from "react";
+import { useNavigate } from 'react-router-dom';
+import '../estilo/Forms.css';
+
+function Forms() {
+    const navigate = useNavigate();
+
+    const handleSubmit = (event) => {
+        event.preventDefault(); // Impede o comportamento padrão do form (recarregar a página)
+
+        // Aqui você pode adicionar lógica adicional, como validação
+
+        // Navegar para uma nova rota (ex: /dashboard)
+        navigate('/dashboard'); // Altere para a rota que desejar
+    }
+
+    return (
         <div>
-            <h1>Login de Usuário</h1>
-            <form action='POST'>
-                <label for="name">
-                    Nome:<input type="text" name="name" id="passwordn"></input>
+            <div className="Container">
+            </div>
+            <div className="xContainer"></div>
+            <form onSubmit={handleSubmit}>
+                <h1>Login de Usuário</h1>
+                <label htmlFor="name">
+                    Unidade consumidora:
+                    <input type="text" name="name" id="passwordn" />
                 </label>
-                <label for="password">
-                    Senha<input type="password" name="password" id="password"></input>
+                <label htmlFor="Entrar">
+                    <button type="submit" id="Entrar">Entrar</button>
                 </label>
-                <input type="submit" value="Entrar"></input>
             </form>
         </div>
-    )
+    );
+}
 
-}export default Forms
+export default Forms;
