@@ -11,7 +11,7 @@ function Forms() {
         // Aqui você pode adicionar lógica adicional, como validação
 
         // Navegar para uma nova rota (ex: /dashboard)
-        navigate('/'); // Altere para a rota que desejar
+        navigate('/abacaxi'); // Altere para a rota que desejar
     }
 
     return (

@@ -1,7 +1,8 @@
 function Servicos_Adm(params) {
     return(
         <div>
-            <h1>ola</h1>
+           <h1>Serviços</h1>
+           
         </div>
     )
     
