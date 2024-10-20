@@ -11,15 +11,16 @@ const MyComponent = () => {
       </div>
       <h1>Serviços</h1>
       <section id="align">
-        <div className="servicoscard"></div>
-        <div className="servicoscard"></div>
-        <div className="servicoscard"></div>
-        <div className="servicoscard"></div>
-        <div className="servicoscard"></div>
-        <div className="servicoscard"></div>
+        <div className="servicoscard"> <p>Rede Pública</p></div>
+        <div className="servicoscard"><p>Troca de titularidade</p></div>
+        <div className="servicoscard"><p> Pagamento</p></div>
+        <div className="servicoscard"><p>Informar falta de luz</p></div>
+        <div className="servicoscard"><p>Segunda via</p></div>
+        <div className="servicoscard"><p>Parcelamento</p></div>
 
-        <h2>Mais serviços</h2>
-        <img src=""></img>
+        <div className="align2">
+        
+        </div>
       </section>
     </>
   );
