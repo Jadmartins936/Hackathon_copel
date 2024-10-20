@@ -1,9 +1,12 @@
-function Servicos_Adm(params) {
-    return(
-        <div>
-           <h1>Serviços</h1>
-           
+import Mic from '../img/mic.svg'
+
+const MyComponent = () => {
+    return (
+        <div className="Chat">
+        <div className="msg">
+            <img src={Mic} alt="imagem de microfone mutado"/>
+            <p>Olá, em que posso ajudar?</p>
         </div>
+       </div>
     )
-    
-}export default Servicos_Adm
+} export default MyComponent
