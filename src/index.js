@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App";
 import Servicos_Adm from "./components/pages/Servicos_Adm";
 import reportWebVitals from "./reportWebVitals";
+import Chat from "./components/pages/Chat";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,7 +13,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route index element={<App />} />
-        <Route path="/abacaxi" element={<Servicos_Adm/>} />
+        <Route path="/serviços" element={<Servicos_Adm />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
