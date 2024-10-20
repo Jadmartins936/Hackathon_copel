@@ -7,7 +7,7 @@ const MyComponent = () => {
         <div className="Chat">
             <MyLogo/>
             
-            <button className='borda'>Olá, em que posso ajudar?</button></div>
+            <button className='borda'>Olá, em que posso ajudar? </button></div>
             
     )
 } ;

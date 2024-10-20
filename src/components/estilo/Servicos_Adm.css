@@ -11,3 +11,22 @@
     font-weight: 400;
     font-style: normal;   
 }
+.Chat{ 
+    background-color: #dca202;
+    width: 30vw;
+    height: 6vh;
+    padding: 2px;
+
+}
+.Chat > button{
+    border-radius: 10px;
+    
+}
+.Chat{
+    
+    padding-top: 7px;
+    bottom: 0;
+    position: fixed;
+    border-radius: 10px 10px 0px 0px;
+}
+
