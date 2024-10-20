@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../estilo/Forms.css";
 
 function Forms() {
+  const [token, setToken] = useState("NULL");
+
   const navigate = useNavigate();
 
   const handleSubmit = (event) => {
     event.preventDefault(); // Impede o comportamento padrão do form (recarregar a página)
 
-    // Aqui você pode adicionar lógica adicional, como validação
+    setToken(document.getElementById("unid"));
 
     // Navegar para uma nova rota (ex: /dashboard)
     navigate("/serviços"); // Altere para a rota que desejar
@@ -24,7 +26,7 @@ function Forms() {
           <input
             type="text"
             name="name"
-            id="passwordn"
+            id="unid"
             placeholder="CPF/Unidade Consumidora"
           />
         </label>
