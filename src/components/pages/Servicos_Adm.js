@@ -19,9 +19,10 @@ const MyComponent = () => {
                 <div className='servicoscard'></div>
                 <div className='servicoscard'></div>
                 <div className='servicoscard'></div>
-                <div className='servicoscard'></div>
-                
-                <h2>Mais serviços</h2><img src=''></img>
+                <div className='servicoscard'></div> 
+               <div className='align2'>
+                <h2>Mais serviços</h2>
+                </div>
                 </section>
 
             

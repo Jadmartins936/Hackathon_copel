@@ -13,7 +13,16 @@
   width: 100%;
   margin-right: 5px;
 }
-
+#more{
+    background-color: transparent;
+    vertical-align:middle;
+    height: 36px;
+    width: 36px;
+    margin: 2px;
+    border: 1px solid #dc2f02;
+    border-radius: 50%;
+   
+}
 
 .Chat{ 
     background-color: #dca202;
@@ -27,6 +36,7 @@
    
 
 }
+
 h1{
     color: black;
    
