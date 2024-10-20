@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
+import Servicos_Adm from "./components/pages/Servicos_Adm";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -11,6 +12,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route index element={<App />} />
+        <Route path="/abacaxi" element={<Servicos_Adm/>} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
