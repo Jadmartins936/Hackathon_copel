@@ -12,7 +12,8 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route index element={<App />} />
-        <Route path="/abacaxi" element={<Servicos_Adm/>} />
+        <Route path="/serviços" element={<Servicos_Adm />} />
+        <Route path="/chat" element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
