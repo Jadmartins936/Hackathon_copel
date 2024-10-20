@@ -60,6 +60,10 @@ h1 {
   transform: scale(1.05);
   box-shadow: -1px 5px 1px black;
 }
+.servicoscard > p {
+   margin: 10px;
+  
+  }
 
 .align {
   position: absolute;
