@@ -11,13 +11,8 @@
   font-weight: 400;
   font-style: normal;
 }
-<<<<<<< Updated upstream
-.Chat {
-  background-color: #dca202;
-  width: 30vw;
-  height: 6vh;
-  padding: 2px;
-=======
+
+
 .Chat{ 
     background-color: #dca202;
     width: 30vw;
@@ -28,20 +23,31 @@
     float: right;
     border-radius: 10px 10px 0px 0px;
    
->>>>>>> Stashed changes
+
+}
+h1{
+    color: black;
+   
+    
 }
 .Chat > button {
   border-radius: 10px;
 }
-<<<<<<< Updated upstream
-.Chat {
-  right: 0;
-  padding-top: 7px;
-  bottom: 0;
-  position: fixed;
-  border-radius: 10px 10px 0px 0px;
+
+
+
+#align{
+    display: inline-flex;
+
 }
-=======
-
-
->>>>>>> Stashed changes
+.servicoscard{
+    
+    width: 160px;
+    height: 160px;
+    background-color: #dca202;
+    margin: 10px;
+    
+}
+h1, .align{
+    margin-top: 4%;
+}
