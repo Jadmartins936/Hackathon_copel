@@ -14,42 +14,44 @@
   margin-right: 5px;
 }
 
-
-.Chat{ 
-    background-color: #dca202;
-    width: 30vw;
-    height: 6vh;
-    padding: 2px;
-    padding-top: 7px;
-    bottom: 0;
-    float: right;
-    border-radius: 10px 10px 0px 0px;
-   
-
+.Chat svg {
+  width: 50px;
+  height: 25px;
+  border-radius: 20px;
+  margin-right: 10px;
+  border: 1px solid #a17600;
+  box-shadow: 0px 2px 1px black;
+  padding: 4px;
 }
-h1{
-    color: black;
-   
-    
+
+.Chat {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: #dca202;
+  width: 400px;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+  border-radius: 10px 10px 0px 0px;
+}
+h1 {
+  color: black;
 }
 .Chat > button {
   border-radius: 10px;
 }
 
-
-
-#align{
-    display: inline-flex;
-
+#align {
+  display: inline-flex;
 }
-.servicoscard{
-    
-    width: 160px;
-    height: 160px;
-    background-color: #dca202;
-    margin: 10px;
-    
+.servicoscard {
+  width: 160px;
+  height: 160px;
+  background-color: #dca202;
+  margin: 10px;
 }
-h1, .align{
-    margin-top: 4%;
+h1,
+.align {
+  margin-top: 4%;
 }
